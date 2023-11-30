@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body class="container"><br><br>
+        <center><big>Hello <%= user %></big></center><br>
+        
+        <center><p class="alert-dark">Here are the voting results</p></center>
+        
+        <center><div><br>
+            <button class="btn btn-dark form-control">Candidate 1 has recieved <%= result.candidate1 %> votes </button><br><br>
+            <button class="btn btn-dark form-control">Candidate 2 has recieved <%= result.candidate2 %> votes </button><br><br>
+            <button class="btn btn-dark form-control">Candidate 3 has recieved <%= result.candidate3 %> votes </button><br><br>
+            <button class="btn btn-dark form-control">Candidate 4 has recieved <%= result.candidate4 %> votes </button><br><br>
+<br>
+<a href="/auth/logout" class="btn btn-danger">Logout</a>
+        </div></center>
+
+
+    </body>
+</html>
